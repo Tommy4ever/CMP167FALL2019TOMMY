@@ -14,7 +14,7 @@ public class SuperMarket {
 		System.out.print("Would yu like to see the inventory");
 		answer = in.next();
 		if(answer.equalsIgnoreCase("yes")) {
-			System.out.printf("1.%s %n 2.%s %n 3.%s %n", "Pringles", "Prosecco", "Mozzarellia Sticks");
+			System.out.printf("1.%s %n 2.%s %n 3.%s", "Pringles", "Prosecco", "Mozzarellia Sticks");
 			System.out.println("Would you like to buy something? 1 2 3 0");
 			int choice = in.nextInt();
 			switch(choice) {
